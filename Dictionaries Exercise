@@ -1,0 +1,9 @@
+>>> telefones = {"Lucas":1122, "Paulo":3344, "Thiago":5566}
+>>> print(telefones)
+{'Lucas': 1122, 'Paulo': 3344, 'Thiago': 5566}
+>>> telefones ["Caio"] = 7788
+>>> print(telefones)
+{'Lucas': 1122, 'Paulo': 3344, 'Thiago': 5566, 'Caio': 7788}
+>>> del telefones ["Caio"]
+>>> print(telefones)
+{'Lucas': 1122, 'Paulo': 3344, 'Thiago': 5566}
