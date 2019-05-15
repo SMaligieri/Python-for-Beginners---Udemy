@@ -1,0 +1,16 @@
+>>> nome = "Stefano Maligieri"
+>>> primeiro_nome = nome[0:7]
+>>> print(primeiro_nome)
+Stefano
+>>> ultimo_nome = nome[8:]
+>>> print(ultimo_nome)
+Maligieri
+>>> nome_completo = primeiro_nome + " " + ultimo_nome
+>>> print(nome_completo)
+Stefano Maligieri
+>>> "S" in nome
+True
+>>> "M" in nome
+True
+>>> "z" in nome
+False
