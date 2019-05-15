@@ -1,0 +1,17 @@
+>>> numero = 1
+>>> if (numero == 1):
+	print("O número é igual a 1")
+else:
+	print("O número não é igual a 1")
+
+	
+O número é igual a 1
+>>> nome = "Stefano"
+>>> if ("x" in nome):
+	print("O nome contém X")
+elif ("t" in nome):
+	print("O nome contém T")
+else:
+	pass
+
+O nome contém T
