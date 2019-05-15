@@ -1,0 +1,21 @@
+>>> tuplas = ("Alberto", "Bruno", "Caio", "Douglas")
+>>> tuplas[0]
+'Alberto'
+>>> tuplas.index("Alberto")
+0
+>>> tuplas[0:3]
+('Alberto', 'Bruno', 'Caio')
+>>> len(tuplas)
+4
+>>> tuplas + tuplas
+('Alberto', 'Bruno', 'Caio', 'Douglas', 'Alberto', 'Bruno', 'Caio', 'Douglas')
+>>> tuplas *2
+('Alberto', 'Bruno', 'Caio', 'Douglas', 'Alberto', 'Bruno', 'Caio', 'Douglas')
+>>> "Alberto" in tuplas
+True
+>>> "Rodrigo" in tuplas
+False
+>>> lista = [0, 1, 2]
+>>> tupla2 = tuple(lista)
+>>> print (tupla2)
+(0, 1, 2)
