@@ -1,0 +1,21 @@
+>>> lista = [1, 2, 3, 4, 5, "a", "b", "c"]
+>>> lista.append("d")
+>>> print(lista)
+[1, 2, 3, 4, 5, 'a', 'b', 'c', 'd']
+>>> lista.remove("d")
+>>> print(lista)
+[1, 2, 3, 4, 5, 'a', 'b', 'c']
+>>> lista.count(1)
+1
+>>> lista.index("b")
+6
+>>> lista.reverse()
+>>> print(lista)
+['c', 'b', 'a', 5, 4, 3, 2, 1]
+>>> lista.reverse()
+>>> print(lista)
+[1, 2, 3, 4, 5, 'a', 'b', 'c']
+>>> lista_2 = [0, 1, 2, 3, 4]
+>>> lista_2.sort()
+>>> print(lista_2)
+[0, 1, 2, 3, 4]
