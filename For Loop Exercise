@@ -1,0 +1,30 @@
+>>> for x in range (0,5):
+	print("O valor de X é:", x)
+
+	
+O valor de X é: 0
+O valor de X é: 1
+O valor de X é: 2
+O valor de X é: 3
+O valor de X é: 4
+>>> nome = "Stefano"
+>>> for letra in nome:
+	print(letra)
+
+	
+S
+t
+e
+f
+a
+n
+o
+>>> lista = [0, 1, 2, 3]
+>>> for valor in lista:
+	print(valor)
+
+	
+0
+1
+2
+3
