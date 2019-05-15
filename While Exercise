@@ -1,0 +1,16 @@
+>>> numero = 10
+>>> while(numero>0):
+	print(numero)
+	numero = numero - 1
+
+	
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
